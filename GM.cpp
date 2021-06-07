@@ -23,8 +23,6 @@ public:
 
 item(): Quantity(0), availability (false) {}
 
-
-//item(bool dispo = false, int quantity = 0 ):  Quantity(quantity), availability(dispo) {};
 virtual ~item(){};	
 
 
@@ -139,9 +137,6 @@ Foods () {
 	       cout << "-------------------------------------------" << endl;
 	       cout << "\n";
 	  }
-//Foods(int quantite , string expdate) : item(quantite) , EXP_Date(expdate) {};
-//Foods(int quantite, string expdate, bool disponibilite = false ): item(disponibilite ), Quantity(quantite), EXP_Date(expdate) {};	
-	
 
 virtual void set_expirationDate()override{
 
@@ -437,113 +432,9 @@ int main(){
  proprio.Updatefile();
  
  
- 
-  //mon_stock.UpdateFile();
-
- //-------------test functions for Client Ahmed-------------
-// item1 = ahmed.Add_product(new Foods());
- 
-// ahmed.set_product(item1);
-
-//Client ahmed (mon_stock);
- 
-// ahmed.display_item(item1);
-
-//-----------------------------------------------------------
-
-
-
-
-// 
-  
-  
-  //item1 = new Foods();
- // mon_stock.Add_Items (new Foods());
-  // proprio.Add_product(new Foods());
-  //item1 = mon_stock.Add_Items(new Foods());
-  
-  //item1 = Admin.Add_Product(new Foods());
-  //Admin.set_product(item1);
-  
-  //Admin.display_item(item1);
-  
-  
- // Admin.display_stock();
-  
-  //mon_stock.set_item(item1);
- 
-  
-  
-  /*
-  
-  cout << " please wait ..." << endl;
-
-
-  mon_stock.infos_item(item1);
-  
-  
-  item2 = mon_stock.Add_Items(new Electronics());
-  
-  mon_stock.set_item(item2);
- 
-  
-   cout << " please wait ..." << endl;
-   
- 
-  
-   
-  mon_stock.infos_item(item2);
-
-
- item3 = mon_stock.Add_Items(new Foods());
-  
-  mon_stock.set_item(item3);
-
-  
-   cout << " please wait ..." << endl;
-   
-
-
-   cout << mon_stock;
-   
-  */
- // cout << item1;
-  
 
 
 return 0;	
 	
 }
 
-
-
-
-
-
-
-
-
-
-	//User Admin("admin");
-	//Admin.set_item();
-
-	
-	
-	
-	//cout << Admin.get_item(1);
-	//Admin.produit.item_infos();
-	
-	
-//Foods Legumes ();	
-/*	
-Foods Legumes (  "23/07/2021");	
-//Foods Legumes (2, "Tomatoes");	
-
-
-Legumes.set_Type();
-Legumes.set_prix();
-	
-Legumes.set_Quantity();
-
-Legumes.item_infos();
-	*/
