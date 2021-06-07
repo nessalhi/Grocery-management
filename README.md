@@ -1,5 +1,5 @@
 # Grocery-management
-Grocery-management C++
+
 The Grocery Management system offers the possibility to manage differents items type inside a simple grocery, 
 going from Adding, modifying item characteristics like the type, price, quantity ..., and deleting it, 
 and finally record all operations performed on an item, inside a txt file, 
