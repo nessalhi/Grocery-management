@@ -84,7 +84,7 @@ virtual bool get_Stock()const{
 	cout << "  no longer available " ;
 	return false;
 	
-}
+} //related to what type of object =>get_Stock() ? 
 
 string get_expdate(){
 	
